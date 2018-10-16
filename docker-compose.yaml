@@ -1,7 +1,7 @@
 version: '3'
 services:
   myapp:
-    image: myapp/node-express
+    image: 58366450/node-express
     ports:
       - "8000:3000"
     command: "npm start"
